@@ -1,0 +1,196 @@
+Welcome to Aaron Schwartz's CHORD simulator!
+This program will generate a CHORD system based on your input, as well as
+generate a random key within that system and find it.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: 5
+Please enter how many Nodes exist within this chord system between 5 and 15: 5
+
+You have created a CHORD system that consists of 5 nodes within a Circular ID-space with 5-bits.
+The randomly generated nodes within this CHORD system are: N7, N10, N12, N25, and N27.
+The randomly generated key to find in this CHORD system is K29.
+
+We will start from the second node in the system, in this case N10.
+The node visiting order from nStart to the destination is:
+N10 > N27 > N7 [destination]
+
+NODE 10 FINGER TABLE:
+---------------------
+N10 + 1       | N12
+N10 + 2       | N12
+N10 + 4       | N25
+N10 + 8       | N25
+N10 + 16      | N27
+
+NODE 27 FINGER TABLE:
+---------------------
+N27 + 1       | N7 [destination]
+N27 + 2       | N7 [destination]
+N27 + 4       | N7 [destination]
+N27 + 8       | N7 [destination]
+N27 + 16      | N12
+
+Would you like to run another CHORD simulation? (type "YES" if so!): YES
+
+
+
+
+Welcome to Aaron Schwartz's CHORD simulator!
+This program will generate a CHORD system based on your input, as well as
+generate a random key within that system and find it.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: 7
+Please enter how many Nodes exist within this chord system between 5 and 15: 7
+
+You have created a CHORD system that consists of 7 nodes within a Circular ID-space with 7-bits.
+The randomly generated nodes within this CHORD system are: N9, N12, N17, N58, N76, N111, and N117.
+The randomly generated key to find in this CHORD system is K9.
+
+We will start from the second node in the system, in this case N12.
+The node visiting order from nStart to the destination is:
+N12 > N76 > N111 > N9 [destination]
+
+NODE 12 FINGER TABLE:
+---------------------
+N12 + 1       | N17
+N12 + 2       | N17
+N12 + 4       | N17
+N12 + 8       | N58
+N12 + 16      | N58
+N12 + 32      | N58
+N12 + 64      | N76
+
+NODE 76 FINGER TABLE:
+---------------------
+N76 + 1       | N111
+N76 + 2       | N111
+N76 + 4       | N111
+N76 + 8       | N111
+N76 + 16      | N111
+N76 + 32      | N111
+N76 + 64      | N12
+
+NODE 111 FINGER TABLE:
+---------------------
+N111 + 1       | N117
+N111 + 2       | N117
+N111 + 4       | N117
+N111 + 8       | N9 [destination]
+N111 + 16      | N9 [destination]
+N111 + 32      | N17
+N111 + 64      | N58
+
+Would you like to run another CHORD simulation? (type "YES" if so!): YES
+
+
+
+
+Welcome to Aaron Schwartz's CHORD simulator!
+This program will generate a CHORD system based on your input, as well as
+generate a random key within that system and find it.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: 19
+The number must be between 5 and 10! Please try again.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: 15
+The number must be between 5 and 10! Please try again.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: pizza
+That was not an integer! Please try again.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: 10
+Please enter how many Nodes exist within this chord system between 5 and 15: 15
+
+You have created a CHORD system that consists of 15 nodes within a Circular ID-space with 10-bits.
+The randomly generated nodes within this CHORD system are: N49, N59, N142, N302, N394, N408, N723, N789, N799, N830, N846, N847, N930, N931, and N974.
+The randomly generated key to find in this CHORD system is K722.
+
+We will start from the second node in the system, in this case N59.
+The node visiting order from nStart to the destination is:
+N59 > N723 [destination]
+
+NODE 59 FINGER TABLE:
+---------------------
+N59 + 1       | N142
+N59 + 2       | N142
+N59 + 4       | N142
+N59 + 8       | N142
+N59 + 16      | N142
+N59 + 32      | N142
+N59 + 64      | N142
+N59 + 128     | N302
+N59 + 256     | N394
+N59 + 512     | N723 [destination]
+
+Would you like to run another CHORD simulation? (type "YES" if so!): YES
+
+
+
+
+Welcome to Aaron Schwartz's CHORD simulator!
+This program will generate a CHORD system based on your input, as well as
+generate a random key within that system and find it.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: 10
+Please enter how many Nodes exist within this chord system between 5 and 15: 15
+
+You have created a CHORD system that consists of 15 nodes within a Circular ID-space with 10-bits.
+The randomly generated nodes within this CHORD system are: N54, N120, N121, N144, N257, N308, N326, N332, N687, N703, N769, N813, N918, N922, and N924.
+The randomly generated key to find in this CHORD system is K899.
+
+We will start from the second node in the system, in this case N120.
+The node visiting order from nStart to the destination is:
+N120 > N687 > N918 [destination]
+
+NODE 120 FINGER TABLE:
+---------------------
+N120 + 1       | N121
+N120 + 2       | N144
+N120 + 4       | N144
+N120 + 8       | N144
+N120 + 16      | N144
+N120 + 32      | N257
+N120 + 64      | N257
+N120 + 128     | N257
+N120 + 256     | N687
+N120 + 512     | N687
+
+NODE 687 FINGER TABLE:
+---------------------
+N687 + 1       | N703
+N687 + 2       | N703
+N687 + 4       | N703
+N687 + 8       | N703
+N687 + 16      | N703
+N687 + 32      | N769
+N687 + 64      | N769
+N687 + 128     | N918 [destination]
+N687 + 256     | N54
+N687 + 512     | N257
+
+Would you like to run another CHORD simulation? (type "YES" if so!): YES
+
+
+
+
+Welcome to Aaron Schwartz's CHORD simulator!
+This program will generate a CHORD system based on your input, as well as
+generate a random key within that system and find it.
+Please enter the value of b (Circular ID-space with 'b'-bit) between 5 and 10: 10
+Please enter how many Nodes exist within this chord system between 5 and 15: 12
+
+You have created a CHORD system that consists of 12 nodes within a Circular ID-space with 10-bits.
+The randomly generated nodes within this CHORD system are: N261, N290, N356, N488, N638, N816, N831, N838, N860, N930, N980, and N997.
+The randomly generated key to find in this CHORD system is K531.
+
+We will start from the second node in the system, in this case N290.
+The node visiting order from nStart to the destination is:
+N290 > N638 [destination]
+
+NODE 290 FINGER TABLE:
+---------------------
+N290 + 1       | N356
+N290 + 2       | N356
+N290 + 4       | N356
+N290 + 8       | N356
+N290 + 16      | N356
+N290 + 32      | N356
+N290 + 64      | N356
+N290 + 128     | N488
+N290 + 256     | N638 [destination]
+N290 + 512     | N816
+
+Would you like to run another CHORD simulation? (type "YES" if so!): NO
+Thank you for using Aaron Schwartz's CHORD simulator! Please come again.
